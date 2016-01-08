@@ -4,7 +4,7 @@
 docker run --privileged -i -t --rm -v ~/Work/Docker/rpi_config/images:/opt/images ubuntu /bin/bash
 
 ## Mount an image
-Taken from [this stackoverflow thread(https://unix.stackexchange.com/questions/82314/how-to-find-the-type-of-img-file-and-mount-it).
+Taken from [this stackoverflow thread](https://unix.stackexchange.com/questions/82314/how-to-find-the-type-of-img-file-and-mount-it).
 
 Check the image file:
 `sudo fdisk -lu /opt/images/2015-11-21-raspbian-jessie.img`
